@@ -2,6 +2,8 @@
 
 [English](README.md) · **O'zbekcha**
 
+[![▶ Jonli demo](https://img.shields.io/badge/%E2%96%B6_Jonli_demo-xoliddev.github.io-22b8f0?style=for-the-badge)](https://xoliddev.github.io/demos/uz-tts-tool/)
+
 > **O'zbekcha matnni tabiiy ovozga aylantiradi** — uzun o'zbekcha matndan bitta toza, tabiiy eshitiladigan MP3 yasaydi.
 
 Bitta fayldan iborat Python CLI: istalgan uzunlikdagi o'zbekcha matnni (qisqa postdan tortib butun audiokitobgacha) Google'ning Gemini TTS modellariga beradi va sizga **balandligi normallashtirilgan bitta MP3 hamda vaqt belgilari ro'yxatini** qaytaradi. To'xtagan joyidan davom etadi, parallel ishlaydi va o'nlab TTS kliplarni bir-biriga ulaganda chiqadigan audio muammolarini tuzatadi.
