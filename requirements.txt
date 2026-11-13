@@ -1,0 +1,3 @@
+# Bundles an ffmpeg binary for the final MP3 encode.
+# Optional if `ffmpeg` is already on your PATH. Everything else is the standard library.
+imageio-ffmpeg>=0.5

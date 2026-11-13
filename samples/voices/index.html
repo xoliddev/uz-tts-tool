@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ovoz Namunalari — Qahramonlar Ovozini Tanlash</title>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: #090b10;
+    color: #e2e8f0;
+    font-family: 'Montserrat', sans-serif;
+    padding: 30px 20px;
+    display: flex;
+    justify-content: center;
+  }
+  .container {
+    max-width: 900px;
+    width: 100%;
+  }
+  h1 {
+    font-family: 'Cinzel', serif;
+    font-size: 26px;
+    letter-spacing: 2px;
+    color: #f8fafc;
+    text-align: center;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+  }
+  .subtitle {
+    text-align: center;
+    color: #94a3b8;
+    font-size: 14px;
+    margin-bottom: 30px;
+  }
+  .section-title {
+    font-family: 'Cinzel', serif;
+    font-size: 19px;
+    color: #e2e8f0;
+    margin: 35px 0 15px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .section-badge {
+    font-size: 11px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 3px 10px;
+    border-radius: 12px;
+    background: rgba(220, 38, 38, 0.2);
+    color: #f87171;
+    border: 1px solid rgba(220, 38, 38, 0.4);
+    letter-spacing: 0.5px;
+  }
+  .card-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+  .card {
+    background: #111520;
+    border: 1px solid #1e293b;
+    border-radius: 12px;
+    padding: 16px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    transition: all 0.2s ease;
+  }
+  .card:hover {
+    border-color: #38bdf8;
+    background: #141a29;
+  }
+  .card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .voice-name {
+    font-weight: 700;
+    font-size: 16px;
+    color: #38bdf8;
+  }
+  .voice-desc {
+    font-size: 13px;
+    color: #cbd5e1;
+  }
+  .quote {
+    font-style: italic;
+    font-size: 13px;
+    color: #94a3b8;
+    line-height: 1.5;
+    background: rgba(0,0,0,0.3);
+    padding: 8px 12px;
+    border-radius: 6px;
+    border-left: 3px solid #38bdf8;
+  }
+  audio {
+    width: 100%;
+    height: 38px;
+    margin-top: 4px;
+    outline: none;
+  }
+</style>
+</head>
+<body>
+<div class="container">
+  <h1>Qahramonlar Ovoz Tanlovi</h1>
+  <p class="subtitle">Google Cloud Vertex AI orqali yaratilgan qisqa namunalar. Har birini eshitib ko'rib, ma'qulini tanlang.</p>
+
+  <!-- 1. CHOL (POLKOVNIK SAMADOV) -->
+  <div class="section-title">
+    <span>👴 1. Polkovnik Samadov (Keksa harbiy qorovul)</span>
+    <span class="section-badge">5 xil variant</span>
+  </div>
+  <div class="card-grid">
+    <div class="card">
+      <div class="card-header">
+        <span class="voice-name">Variant 1: Charon</span>
+        <span class="voice-desc">Vazmin, chuqur, ma'lumot beruvchi ohang</span>
+      </div>
+      <div class="quote">"Tog'da qish boshqacha bo'ladi... Bu balandlikda inson yo mutlaq sukunatga o'rganadi... yoki asta-sekin aqldan ozadi."</div>
+      <audio controls src="chol_1_charon.mp3"></audio>
+    </div>
+
+    <div class="card">
+      <div class="card-header">
+        <span class="voice-name">Variant 2: Fenrir</span>
+        <span class="voice-desc">Qattiq, jangovar, qat'iy keksa askar ohangi</span>
+      </div>
+      <div class="quote">"Tog'da qish boshqacha bo'ladi... Bu balandlikda inson yo mutlaq sukunatga o'rganadi... yoki asta-sekin aqldan ozadi."</div>
+      <audio controls src="chol_2_fenrir.mp3"></audio>
+    </div>
+
+    <div class="card">
+      <div class="card-header">
+        <span class="voice-name">Variant 3: Orus</span>
+        <span class="voice-desc">Og'ir, xirilloq, ko'krak rezonansi baland</span>
+      </div>
+      <div class="quote">"Tog'da qish boshqacha bo'ladi... Bu balandlikda inson yo mutlaq sukunatga o'rganadi... yoki asta-sekin aqldan ozadi."</div>
+      <audio controls src="chol_3_orus.mp3"></audio>
+    </div>
+
+    <div class="card">
+      <div class="card-header">
+        <span class="voice-name">Variant 4: Enceladus</span>
+        <span class="voice-desc">Past, g'amgin, bosiq va vazmin ohang</span>
+      </div>
+      <div class="quote">"Tog'da qish boshqacha bo'ladi... Bu balandlikda inson yo mutlaq sukunatga o'rganadi... yoki asta-sekin aqldan ozadi."</div>
+      <audio controls src="chol_4_enceladus.mp3"></audio>
+    </div>
+
+    <div class="card">
+      <div class="card-header">
+        <span class="voice-name">Variant 5: Iapetus</span>
+        <span class="voice-desc">Sekin, xotirjam, donishmandona va tabiiy</span>
+      </div>
+      <div class="quote">"Tog'da qish boshqacha bo'ladi... Bu balandlikda inson yo mutlaq sukunatga o'rganadi... yoki asta-sekin aqldan ozadi."</div>
+      <audio controls src="chol_5_iapetus.mp3"></audio>
+    </div>
+  </div>
+
+  <!-- 2. BOLA (RUSTAM) -->
+  <div class="section-title">
+    <span>🏃 2. Rustam (Begona yigit — sovuqdan muzlagan, qo'rqqan)</span>
+    <span class="section-badge">2 xil variant</span>
+  </div>
+  <div class="card-grid">
+    <div class="card">
+      <div class="card-header">
+        <span class="voice-name">Variant 1: Puck</span>
+        <span class="voice-desc">Hansiragan, shoshilgan, qo'rquv aralash yosh yigit</span>
+      </div>
+      <div class="quote">"Yordam bering... Iltimos, eshikni oching! Mashinam jarga quladi... Ular... ular ortimdan kelyapti!"</div>
+      <audio controls src="bola_1_puck.mp3"></audio>
+    </div>
+
+    <div class="card">
+      <div class="card-header">
+        <span class="voice-name">Variant 2: Zephyr</span>
+        <span class="voice-desc">Titroq, nafasli, sovuqdan qaltiragan ovoz</span>
+      </div>
+      <div class="quote">"Yordam bering... Iltimos, eshikni oching! Mashinam jarga quladi... Ular... ular ortimdan kelyapti!"</div>
+      <audio controls src="bola_2_zephyr.mp3"></audio>
+    </div>
+  </div>
+
+  <!-- 3. BOSHLIQ -->
+  <div class="section-title">
+    <span>💀 3. Boshliq (Qora niqobli yollanma qotil)</span>
+    <span class="section-badge">3 xil variant</span>
+  </div>
+  <div class="card-grid">
+    <div class="card">
+      <div class="card-header">
+        <span class="voice-name">Variant 1: Fenrir</span>
+        <span class="voice-desc">Sovuqqon, keskin, tahdidli yollanma jangari</span>
+      </div>
+      <div class="quote">"Miltiqni tushir, chol. Bu yerda buyruqni men beraman. O'g'ling Temur ham o'sha samolyot kabinasida xuddi shunday gapirgan edi."</div>
+      <audio controls src="boshliq_1_fenrir.mp3"></audio>
+    </div>
+
+    <div class="card">
+      <div class="card-header">
+        <span class="voice-name">Variant 2: Orus</span>
+        <span class="voice-desc">Dag'al, buyruqboz, shafqatsiz</span>
+      </div>
+      <div class="quote">"Miltiqni tushir, chol. Bu yerda buyruqni men beraman. O'g'ling Temur ham o'sha samolyot kabinasida xuddi shunday gapirgan edi."</div>
+      <audio controls src="boshliq_2_orus.mp3"></audio>
+    </div>
+
+    <div class="card">
+      <div class="card-header">
+        <span class="voice-name">Variant 3: Charon</span>
+        <span class="voice-desc">Kinoyali, xavfli, sokin tahdid</span>
+      </div>
+      <div class="quote">"Miltiqni tushir, chol. Bu yerda buyruqni men beraman. O'g'ling Temur ham o'sha samolyot kabinasida xuddi shunday gapirgan edi."</div>
+      <audio controls src="boshliq_3_charon.mp3"></audio>
+    </div>
+  </div>
+</div>
+</body>
+</html>

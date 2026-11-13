@@ -1,0 +1,28 @@
+# Secrets: real keys live only in .env / .env.txt (see .env.example)
+.env
+.env.*
+.env.txt
+!.env.example
+
+# Per-chunk audio cache (resumable runs)
+cache/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Scratch outputs in the repo root; curated demos live in samples/
+/*.mp3
+/*.wav
+/*.tmp.wav
+/*_matn.txt
+/test_*.txt
+/*_vaqtlar.txt
+
+# Editors / OS
+.idea/
+.vscode/
+Thumbs.db
+.DS_Store
