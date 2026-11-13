@@ -1,5 +1,7 @@
 # uz-tts-tool
 
+**English** · [O'zbekcha](README.uz.md)
+
 > **O'zbekcha matnni tabiiy ovozga aylantiradi** — turns long Uzbek text into one clean, natural-sounding MP3.
 
 A single-file Python CLI that feeds Uzbek text of any length (a short post or a whole audiobook) to Google's Gemini TTS models and gives you back **one loudness-normalised MP3 plus a timestamp index**. It is resumable, parallel, and fixes the audio quirks you hit when you stitch dozens of TTS clips together.
