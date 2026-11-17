@@ -121,6 +121,9 @@ class GcloudToken:
     account: the Google account that owns the project (GOOGLE_CLOUD_ACCOUNT), so a different active gcloud account does not matter."""
     def __init__(self, account=None):
         self.tok, self.at, self.lock = None, 0, threading.Lock()
+        # the command runs through a shell (gcloud is a .cmd on Windows), so the account must be a plain email
+        if account and not re.fullmatch(r'[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+', account):
+            raise SystemExit(f'GOOGLE_CLOUD_ACCOUNT email emas: {account!r}')
         self.cmd = 'gcloud auth print-access-token' + (f' --account {account}' if account else '')
 
     def get(self):
